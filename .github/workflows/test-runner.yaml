@@ -8,3 +8,5 @@ jobs:
       - javascritp
     steps:
       - run: echo "Test sefthost runner"
+      - name: Checkout
+        uses: action/checkout@v7.0.0
